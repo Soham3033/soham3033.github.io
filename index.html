@@ -1,9 +1,85 @@
-<html>
-<head>
-<title> Soham Lole </title>
-</head>
-<body>
-<h1>Soham </h1>
-<h2>Lole</h2>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="logo">Portfolio</a>
+
+      <nav class="navbar">
+        <a href="#home" style="--1: 1" class="active">Home</a>
+        <a href="#about" style="--1: 2">About</a>
+        <a href="#skills" style="--1: 3">Skills</a>
+        <a href="#project" style="--1: 4">Projects</a>
+        <!-- <a href="" style="--1: 5">Education</a> -->
+      </nav>
+    </header>
+    <section class="home">
+      <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Soham Lole</h1>
+        <h3>And I'm a <span class="text"> </span></h3>
+        <p>Student <br />specializing in web development</p>
+
+        <div class="home-sci">
+          <a
+            href="https://www.instagram.com/soham.3033"
+            style="--1: 7"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/soham-lole-1aba82277/"
+            style="--1: 8"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a href="https://github.com/Soham3033" style="--1: 9"
+            ><i class="bi bi-github"></i
+          ></a>
+        </div>
+        <a href="#about" class="btn-box">More about me</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="aboutimg.jpg" />
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Learner</h4>
+        <p>
+        I am a Computer Science student with a strong passion for web development. I enjoy creating visually appealing and user-friendly websites that combine creativity with functionality. Currently, I am exploring front-end technologies like HTML, CSS, and JavaScript, with plans to dive into modern frameworks like React and backend development soon.
+        </p>
+        <!-- <a href="" class="btn-box">More About Me </a> -->
+      </div>
+    </section>
+
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section>
+      <div class="container" id="skills">
+        <div class="heading1">Technical Skills</div>
+        <div class="technical-bars">
+          <div class="bar">• </div>
+          <div class="bar">• Data Visualisation – Matplotlib</div>
+          <div class="bar">• Java Programming</div>
+          <div class="bar">• API Development</div>
+          <div class="bar">• Backend – php</div>
+          <div class="bar">• Frontend – Html & Css</div>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
 </html>
